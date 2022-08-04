@@ -7,7 +7,7 @@ import com.SiS.Model.Student;
 @Repository
 public interface JPA_Repo extends JpaRepository<Student, Integer> {
 
-	public Student saveStudent(Student student);
+
 	
 	
 	
