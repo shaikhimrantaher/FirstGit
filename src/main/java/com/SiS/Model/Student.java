@@ -41,18 +41,6 @@ public class Student {
 	public String toString() {
 		return "Student [sid=" + sid + ", name=" + name + ", city=" + city + ", age=" + age + "]";
 	}
-	public Student(int sid, String name, String city, int age) {
-		super();
-		this.sid = sid;
-		this.name = name;
-		this.city = city;
-		this.age = age;
-	}
-	public Student() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
 	
 
 }
